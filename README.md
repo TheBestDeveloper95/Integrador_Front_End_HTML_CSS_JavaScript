@@ -1,8 +1,8 @@
 # Proyecto Integrador FRONT - Desarrollo de Software 2024
 
-![GitHub](https://img.shields.io/github/license/TomyFernandez/Proyecto-Integrador-FRONTEND)
-![GitHub last commit](https://img.shields.io/github/last-commit/TomyFernandez/Proyecto-Integrador-FRONTEND)
-![GitHub issues](https://img.shields.io/github/issues/TomyFernandez/Proyecto-Integrador-FRONTEND)
+![GitHub](https://img.shields.io/github/license/TheBestDeveloper95/Integrador_Front_End_HTML_CSS_JavaScript)
+![GitHub last commit](https://img.shields.io/github/last-commit/Integrador_Front_End_HTML_CSS_JavaScript)
+![GitHub issues](https://img.shields.io/github/issues/TheBestDeveloper95/Integrador_Front_End_HTML_CSS_JavaScript)
 
 ## Descripción
 
