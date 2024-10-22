@@ -6,18 +6,18 @@
 
 ## Descripción
 
-Este proyecto es parte del curso de Desarrollo de la UTN y tiene como objetivo demostrar las habilidades adquiridas en el desarrollo de aplicaciones web front-end. Es una aplicación que permite a los usuarios gestionar productos, proporcionando funcionalidades para agregar, modificar, eliminar y buscar productos almacenados en el `localStorage` del navegador.
+Esta pagina de comidas llamada red hot chili peppers tiene como objetivo demostrar las habilidades adquiridas en el desarrollo de aplicaciones web front-end. Es una aplicación que permite a los usuarios gestionar productos, proporcionando funcionalidades para agregar, eliminar y buscar productos almacenados en el `localStorage` del navegador.
 
 ## Características
 
-- **Agregar Productos a un carro de compras**: Permite a los usuarios agregar nuevos productos con detalles como nombre, imagen, precio y categoría.
-- **Eliminar Productos de un carro de compras**: Los productos pueden ser eliminados de la lista.
+- **Agregar Productos a un carro de compras**: Permite a los usuarios agregar al carro de compras cualquier producto disponible en la pagina.
+- **Eliminar Productos de un carro de compras**: permite eliminar los productos agregados al carro de compras.
 - **Buscar Productos**: Los usuarios pueden buscar productos por nombre.
 
 ## Tecnologías Utilizadas
 
 - **HTML5**: Para la estructura de la página.
-- **CSS3**: Para el diseño y la presentación.
+- **CSS**: Para el diseño y la presentación.
 - **JavaScript**: Para la lógica del lado del cliente.
 - **LocalStorage**: Para almacenar los datos localmente en el navegador.
 - **SweetAlert2**: Para mostrar alertas y notificaciones.
