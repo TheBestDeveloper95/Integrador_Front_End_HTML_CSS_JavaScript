@@ -91,11 +91,6 @@ window.onload = fadeOut;
 
 
 
-
-
-
-
-
 // Array para guardar los productos del carrito
 let carrito = [];
 
@@ -152,4 +147,51 @@ document.querySelectorAll('.btn-agregar').forEach(boton => {
         };
         agregarAlCarrito(producto);
     });
+});
+
+
+
+
+
+
+
+// Seleccionamos el botón que abrirá el modal
+const btnAbrirModal = document.getElementById('btn-abrir-modal');
+
+// Seleccionamos el modal
+const modal = document.getElementById('modal-agregar-producto');
+
+// Seleccionamos el botón que cerrará el modal
+const btnCerrarModal = document.getElementById('btn-cerrar-modal');
+
+// Cuando se hace clic en el botón fa-plus, se muestra el modal
+btnAbrirModal.addEventListener('click', function(e) {
+    e.preventDefault(); // Evitamos que el enlace recargue la página
+    modal.style.display = 'block'; // Mostramos el modal
+});
+
+// Cuando se hace clic en el botón de cerrar, ocultamos el modal
+btnCerrarModal.addEventListener('click', function() {
+    modal.style.display = 'none'; // Ocultamos el modal
+});
+
+// Cuando se hace clic fuera del contenido del modal, también se oculta
+window.addEventListener('click', function(e) {
+    if (e.target === modal) {
+        modal.style.display = 'none'; // Ocultamos el modal si se hace clic fuera
+    }
+});
+
+// Resto de tu código para agregar productos
+formAgregarProducto.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const nombreProducto = document.getElementById('nombre').value;
+    const precioProducto = document.getElementById('precio').value;
+    const imagenProducto = document.getElementById('imagen').value;
+
+    agregarProducto(nombreProducto, precioProducto, imagenProducto);
+
+    // Cerrar el modal después de agregar el producto
+    modal.style.display = 'none';
 });

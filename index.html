@@ -63,10 +63,29 @@
     <div class="icons">
         <i class="fas fa-bars" id="menu-bars"></i>
         <i class="fas fa-search" id="search-icon"></i>
-        <a href="#" class="fas fa-heart"></a>
+        <!-- Botón que abrirá el formulario modal -->
+        <a href="#" class="fas fa-plus" id="btn-abrir-modal"></a>
         <a href="#" class="fas fa-shopping-cart"></a>
     </div>
+<!-- Ventana modal oculta por defecto -->
+<div id="modal-agregar-producto" class="modal">
+    <div class="modal-contenido">
+        <span class="modal-cerrar" id="btn-cerrar-modal">&times;</span>
+        <h2>Agregar nuevo producto</h2>
+        <form id="form-agregar-producto">
+            <label for="nombre">Nombre del producto:</label>
+            <input type="text" id="nombre" name="nombre" required>
 
+            <label for="precio">Precio:</label>
+            <input type="number" id="precio" name="precio" required>
+
+            <label for="imagen">URL de la imagen:</label>
+            <input type="url" id="imagen" name="imagen" required>
+
+            <button type="submit">Agregar Producto</button>
+        </form>
+    </div>
+</div>
 </header>
 
 <!-- header section ends-->
@@ -326,7 +345,7 @@
                     <i class="fas fa-star-half-alt"></i>
                 </div>
                 <h3>simple cebolla y palta</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <p>Pan de papa, super medallon y cebolla..</p>
                 <a href="#" class="btn btn-agregar" data-nombre="simple cebolla y palta" data-precio="6800">agregar al carrito</a>
                 <span class="price">$6800</span>
             </div>
@@ -346,7 +365,7 @@
                     <i class="fas fa-star-half-alt"></i>
                 </div>
                 <h3>panqueques</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <p>Sin tac, y vos sin palabras.</p>
                 <a href="#" class="btn btn-agregar" data-nombre="panqueques" data-precio="4800">agregar al carrito</a>
                 <span class="price">$4800</span>
             </div>
@@ -428,7 +447,7 @@
                     <i class="fas fa-star-half-alt"></i>
                 </div>
                 <h3>especial frutos rojos</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                <p>Simplemente increibles.</p>
                 <a href="#" class="btn btn-agregar" data-nombre="frutos rojos" data-precio="3300">agregar al carrito</a>
                 <span class="price">$3300</span>
             </div>
