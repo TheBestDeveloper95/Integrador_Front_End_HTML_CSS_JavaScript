@@ -6,12 +6,13 @@
 
 ## Descripción
 
-Esta pagina de comidas llamada red hot chili peppers tiene como objetivo demostrar las habilidades adquiridas en el desarrollo de aplicaciones web front-end. Es una aplicación que permite a los usuarios gestionar productos, proporcionando funcionalidades para agregar, eliminar y buscar productos almacenados en el `localStorage` del navegador.
+Esta pagina de comidas llamada red hot chili peppers tiene como objetivo demostrar las habilidades adquiridas en el desarrollo de aplicaciones web front-end. Es una aplicación que permite a los usuarios gestionar productos, proporcionando funcionalidades para agregar, eliminar y buscar productos a un carro, y agregar productos a la pagina almacenados en el `localStorage` del navegador.
 
 ## Características
 
 - **Agregar Productos a un carro de compras**: Permite a los usuarios agregar al carro de compras cualquier producto disponible en la pagina.
 - **Eliminar Productos de un carro de compras**: permite eliminar los productos agregados al carro de compras.
+- **Agregar productos a la página**: Dando la posibilidad de elegir un nombre, precio y una imagen.
 - **Buscar Productos**: Los usuarios pueden buscar productos por nombre.
 
 ## Tecnologías Utilizadas
